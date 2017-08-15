@@ -1,0 +1,10 @@
+[global]
+rw=randrw
+bs=4K
+direct=0
+fsync=1
+numjobs=1
+
+[randrw-256M-test]
+size=256M
+filename=${TESTNAME}

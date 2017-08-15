@@ -1,0 +1,9 @@
+[global]
+rw=rw
+bs=4K
+direct=0
+numjobs=1
+
+[rw-256M-test]
+size=256M
+filename=${TESTNAME}

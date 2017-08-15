@@ -1,0 +1,9 @@
+[global]
+rw=randwrite
+bs=4K
+direct=0
+numjobs=1
+
+[randwrite-256M-test]
+size=256M
+filename=${TESTNAME}

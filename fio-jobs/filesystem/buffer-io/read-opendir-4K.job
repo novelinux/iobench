@@ -1,0 +1,7 @@
+[global]
+direct=0
+numjobs=1
+openfiles=1000
+
+[read-opendir-test]
+opendir=${TESTPATH}

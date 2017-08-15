@@ -1,0 +1,10 @@
+[global]
+rw=write
+bs=4K
+fdatasync=1
+numjobs=1
+unlink=1
+
+[write-512M-test]
+size=512M
+filename=${TESTPATH}/${TESTNAME}0
