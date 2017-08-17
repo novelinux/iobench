@@ -46,9 +46,8 @@ class IoBench(shelltest.ShellTest):
     self.device.wait()
     self.device.push("./iozone-static", target_dir)
 
-    # minfile
-    res_file = target_dir + "res_minfile.xls"
-    test_file = target_dir + "test_minfile"
+    res_file = target_dir + "iozone_test_results.xls"
+    test_file = target_dir + "iozone_test_file"
     size = str(self.get_total_mem()) + "M"
     exit_code, stdout, stderr = self.iozone.run(size, "4k", "128k", res_file, test_file)
     print stdout
