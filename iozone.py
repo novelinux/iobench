@@ -22,5 +22,5 @@ class Iozone(object):
 
   def run(self, s, y, q, b, f):
     cmd = "-a -s " + s + " -y " + y + " -q " + q + " -b " + b + " -f " + f
-    print "\niozone options: ", cmd
+    print "iozone options: ", cmd
     return self._exec(cmd)

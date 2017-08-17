@@ -1,9 +1,0 @@
-[submodule "iozone"]
-	path = iozone
-	url = git@github.com:leeminghao/iozone.git
-[submodule "fio"]
-	path = fio
-	url = git@github.com:leeminghao/fio.git
-[submodule "puncture_fs"]
-	path = puncture_fs
-	url = git@github.com:leeminghao/puncture_fs.git
