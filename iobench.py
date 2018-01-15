@@ -44,7 +44,7 @@ class IoBench(shelltest.ShellTest):
 
     self.device.root()
     self.device.wait()
-    self.device.push("./iozone-static", target_dir)
+    self.device.push("./thirdparty/arm64/iozone-static", target_dir)
 
     res_file = target_dir + "iozone_test_results.xls"
     test_file = target_dir + "iozone_test_file"
