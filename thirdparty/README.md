@@ -51,9 +51,11 @@ LTP还是一个优秀的自动化测试框架，基于它通过设计测试用�
 ### org
 
 https://linux-test-project.github.io/
+https://github.com/linux-test-project/ltp
 
 ### Android
 
+https://github.com/leeminghao/ltp
 
 ## postmark
 
@@ -72,3 +74,9 @@ https://sources.debian.org/src/postmark
 ### Android
 
 https://github.com/leeminghao/postmark
+
+## disktest
+
+### Android
+
+https://github.com/leeminghao/ltp/tree/master/testcases/kernel/io/disktest
